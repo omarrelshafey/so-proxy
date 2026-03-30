@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   if (req.method === "OPTIONS") return res.status(200).end();
 
-  const TOKEN = "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";
+  const TOKEN = "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";
   const SHOP  = "socosmetics-eg.myshopify.com";
   const VER   = "2024-01";
   const { endpoint } = req.query;
